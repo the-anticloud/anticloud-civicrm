@@ -1,0 +1,81 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:9b0cfff2-0fac-58ce-b229-fba3be322142",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-08T20:21:38Z",
+    "component": {
+      "type": "application",
+      "name": "CIVICRM",
+      "version": "880db5788090",
+      "bom-ref": "pkg:generic/anticloud/CIVICRM@880db5788090",
+      "purl": "pkg:generic/anticloud/CIVICRM@880db5788090",
+      "licenses": [
+        {
+          "license": {
+            "id": "AGPL-3.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "880db5788090168bd3343ee2c8f47d0bd596a994"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/civicrm/civicrm-core.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "bower",
+      "version": "^1.8.8",
+      "purl": "pkg:npm/bower@^1.8.8",
+      "bom-ref": "npm/bower@^1.8.8"
+    },
+    {
+      "type": "library",
+      "name": "civicrm-cv",
+      "version": "^0.1.2",
+      "purl": "pkg:npm/civicrm-cv@^0.1.2",
+      "bom-ref": "npm/civicrm-cv@^0.1.2"
+    },
+    {
+      "type": "library",
+      "name": "jasmine-core",
+      "version": "~3.3.0",
+      "purl": "pkg:npm/jasmine-core@~3.3.0",
+      "bom-ref": "npm/jasmine-core@~3.3.0"
+    },
+    {
+      "type": "library",
+      "name": "karma",
+      "version": "^6.4.4",
+      "purl": "pkg:npm/karma@^6.4.4",
+      "bom-ref": "npm/karma@^6.4.4"
+    },
+    {
+      "type": "library",
+      "name": "karma-jasmine",
+      "version": "~2.0.1",
+      "purl": "pkg:npm/karma-jasmine@~2.0.1",
+      "bom-ref": "npm/karma-jasmine@~2.0.1"
+    },
+    {
+      "type": "library",
+      "name": "karma-ng-html2js-preprocessor",
+      "version": "^1.0.0",
+      "purl": "pkg:npm/karma-ng-html2js-preprocessor@^1.0.0",
+      "bom-ref": "npm/karma-ng-html2js-preprocessor@^1.0.0"
+    }
+  ]
+}
